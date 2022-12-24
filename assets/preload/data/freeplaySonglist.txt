@@ -1,3 +1,4 @@
-Haxxer:doxxie:0xFF444444
-Vandalize:doxxie:0xFF444444
-Cupcakes:doxxie:0xFFFF99CC
+Rainbow:soinc:1:#FFFFFF
+Rme:soinc:1:#FFFFFF
+Icu:soinc:1:#FFFFFF
+Tol:soinc:1:#FFFFFF
