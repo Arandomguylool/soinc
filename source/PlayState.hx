@@ -761,7 +761,6 @@ class PlayState extends MusicBeatState
 		            add(floor);
 		            
 		            var yellow:BGSprite = new BGSprite("yellow", -65.9 * zoomshit, 108.65 * zoomshit, 1.5 * zoomshit, 1.5 * zoomshit); 
-		            add(yellow);
 		            
 		            var watermark:BGSprite = new BGSprite("watermark", 28.5, 636.15, 0, 0);
 		            watermark.cameras = [camHUD];
@@ -907,6 +906,9 @@ class PlayState extends MusicBeatState
 
 		add(dad);
 		add(boyfriend);
+
+                if (curStage == 'rainbow') 
+			add(yellow);
 
 		if(curStage == 'limo')
 			add(fastCar);
