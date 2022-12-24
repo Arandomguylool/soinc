@@ -762,7 +762,8 @@ class PlayState extends MusicBeatState
 		            var floor:BGSprite = new BGSprite("floor", -210.05, 606.4, 1, 1);
 		            add(floor);
 		            
-		            yellow = new BGSprite("yellow", -65.9 * zoomshit, 108.65 * zoomshit, 1.5 * zoomshit, 1.5 * zoomshit); 
+		            yellow = new BGSprite("yellow", -65.9 * zoomshit, 108.65 * zoomshit, 1.5 * zoomshit, 1.5 * zoomshit);
+                            yellow.setGraphicSize(Std.int(width * 1.2));
 		            
 		            var watermark:BGSprite = new BGSprite("watermark", 28.5, 636.15, 0, 0);
 		            watermark.cameras = [camHUD];
