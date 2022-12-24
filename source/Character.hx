@@ -439,6 +439,8 @@ class Character extends Sprite
 				loadOffsetFile(curCharacter);
 
 				playAnim('idle');
+
+				flipX = true;
 		}
 
 		dance();
