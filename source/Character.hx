@@ -432,9 +432,9 @@ class Character extends Sprite
 				frames = tex;
 				animation.addByPrefix('idle', 'idle', 24, false);
 				animation.addByPrefix('singUP', 'singUP', 24, false);
-				animation.addByPrefix('singRIGHT', 'singRIGHT', 24, false);
+				animation.addByPrefix('singRIGHT', 'singLEFT', 24, false);
 				animation.addByPrefix('singDOWN', 'singDOWN', 24, false);
-				animation.addByPrefix('singLEFT', 'singLEFT', 24, false);
+				animation.addByPrefix('singLEFT', 'singRIGHT', 24, false);
 				healthBarColor.setRGB(102, 204, 255, 255);
 				loadOffsetFile(curCharacter);
 
