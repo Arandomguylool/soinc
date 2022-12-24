@@ -768,7 +768,6 @@ class PlayState extends MusicBeatState
 		            
 		            gf.visible = false;
 		          }
-		          }
 		          default:
 		          {
 					defaultCamZoom = 0.9;
