@@ -419,9 +419,9 @@ class Character extends Sprite
 				animation.addByPrefix('ASS', 'ASS', 24, false);
 				animation.addByPrefix('FUCK', 'FUCK', 24, false);
 				animation.addByPrefix('BOWSER', 'BOWSER', 24, false);
-				animation.addByPrefix('NO', 'NO', 24, false);
-				animation.addByPrefix('BOOM', 'BOOM', 24, false);
-				animation.addByPrefix('PINGAS', 'PINGAS', 24, false);
+				animation.addByPrefix('NO', 'NO', 24, true);
+				animation.addByPrefix('BOOM', 'BOOM', 24, true);
+				animation.addByPrefix('PINGAS', 'PINGAS', 24, true);
 				healthBarColor.setRGB(0, 102, 255, 255);
 				loadOffsetFile(curCharacter);
 
