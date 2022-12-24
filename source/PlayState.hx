@@ -765,8 +765,6 @@ class PlayState extends MusicBeatState
 		            var watermark:BGSprite = new BGSprite("watermark", 28.5, 636.15, 0, 0);
 		            watermark.cameras = [camHUD];
 		            add(watermark);
-		            
-		            gf.visible = false;
 		          }
 		          default:
 		          {
