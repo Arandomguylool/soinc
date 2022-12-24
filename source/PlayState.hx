@@ -852,11 +852,7 @@ class PlayState extends MusicBeatState
 				camPos.set(dad.getGraphicMidpoint().x + 300, dad.getGraphicMidpoint().y);
 		}
 
-	if (boyfriend.curCharacter == 'sunkfriend') {
 		boyfriend = new Boyfriend(0, 0, SONG.player1);
-		} else {
-		boyfriend = new Boyfriend(770, 450, SONG.player1);
-		}
 
 		// REPOSITIONING PER STAGE
 		switch (curStage)
