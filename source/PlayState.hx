@@ -744,7 +744,7 @@ class PlayState extends MusicBeatState
 		          {
 		            defaultCamZoom = 1;
 		            curStage = 'rainbow';
-		            var zoomshit = camGame.zoom / 1
+		            var zoomshit = camGame.zoom / 1;
 		            var bg:BGSprite = new BGSprite("bg", -10, -10, 0, 0);
 		            add(bg);
 		            
@@ -1358,7 +1358,9 @@ class PlayState extends MusicBeatState
 		#if mobile
 		mobileControls.visible = true;
 		#end
+	    if (curStage != 'rainbow') {
 		generateStaticArrowsDAD();
+            }
 		generateStaticArrowsBF();
 
 		
