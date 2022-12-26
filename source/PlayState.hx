@@ -2422,7 +2422,7 @@ class PlayState extends MusicBeatState
 					case 'soinc':
 						defaultCamZoom = 1;
 						camFollowX = dad.getMidpoint().x + 30;
-						camFollowY = dad.getMidpoint().y + 95;
+						camFollowY = dad.getMidpoint().y + 100;
 					case 'senpai':
 						camFollowY = dad.getMidpoint().y - 380;
 						camFollowX = dad.getMidpoint().x - 240;
