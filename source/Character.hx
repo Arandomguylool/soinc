@@ -430,7 +430,7 @@ class Character extends Sprite
 			case 'sunkfriend':
 				tex = Paths.getSparrowAtlas('characters/sunkfriend');
 				frames = tex;
-				animation.addByPrefix('idle', 'idle', 24, false);
+				animation.addByPrefix('idle', 'idle', 24, true);
 				animation.addByPrefix('singUP', 'singUP', 24, false);
 				animation.addByPrefix('singRIGHT', 'singLEFT', 24, false);
 				animation.addByPrefix('singDOWN', 'singDOWN', 24, false);
