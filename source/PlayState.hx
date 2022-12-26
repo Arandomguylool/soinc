@@ -2480,7 +2480,7 @@ class PlayState extends MusicBeatState
 						camFollowX = boyfriend.getMidpoint().x - 200;
 					case 'rainbow':
 						defaultCamZoom = 1.2;
-						camFollowX = boyfriend.getMidpoint().x - 70; // x negativo = direita | x positivo = esquerda
+						camFollowX = boyfriend.getMidpoint().x - 100; // x negativo = direita | x positivo = esquerda
 						camFollowY = boyfriend.getMidpoint().y + 0; // y negativo = cima | y positivo = baixo
 					case 'mall':
 						camFollowY = boyfriend.getMidpoint().y - 100;
