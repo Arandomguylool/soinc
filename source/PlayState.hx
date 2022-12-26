@@ -2421,8 +2421,8 @@ class PlayState extends MusicBeatState
 						camFollowY = dad.getMidpoint().y;
 					case 'soinc':
 						defaultCamZoom = 1;
-						camFollowX = dad.getMidpoint().x + 0;
-						camFollowY = dad.getMidpoint().y + 50;
+						camFollowX = dad.getMidpoint().x + 20;
+						camFollowY = dad.getMidpoint().y + 150;
 					case 'senpai':
 						camFollowY = dad.getMidpoint().y - 380;
 						camFollowX = dad.getMidpoint().x - 240;
@@ -2480,7 +2480,7 @@ class PlayState extends MusicBeatState
 						camFollowX = boyfriend.getMidpoint().x - 200;
 					case 'rainbow':
 						defaultCamZoom = 1.2;
-						camFollowX = boyfriend.getMidpoint().x - 30; // x negativo = direita | x positivo = esquerda
+						camFollowX = boyfriend.getMidpoint().x - 70; // x negativo = direita | x positivo = esquerda
 						camFollowY = boyfriend.getMidpoint().y + 0; // y negativo = cima | y positivo = baixo
 					case 'mall':
 						camFollowY = boyfriend.getMidpoint().y - 100;
